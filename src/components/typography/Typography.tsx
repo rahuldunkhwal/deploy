@@ -67,6 +67,8 @@ const Typography = forwardRef<HTMLElement, TypographyProps>(
   }
 );
 
+Typography.displayName = "Typography";
+
 export default Typography;
 export type TypographyVariants = VariantProps<
 	typeof typographyVariants

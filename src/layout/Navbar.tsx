@@ -2,6 +2,7 @@
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { useRef } from "react";
+import Image from "next/image";
 
 gsap.registerPlugin(useGSAP);
 
@@ -44,17 +45,18 @@ const Navbar = () => {
             <div>
               <button className="px-4 py-3 gap-2 text-white text-sm bg-white/10 rounded-md flex items-center">
                 EN
-                <img src="/hero-section/icon-arrow.png"></img>
+                <Image src="/hero-section/icon-arrow.png" alt="icon"/>
               </button>
             </div>
             <div className="flex gap-x-2">
               <button className="px-4 py-3 bg-white rounded-md">
-                <img
+                <Image
                   src="/hero-section/icon-map.png"
-                ></img>
+                  alt="map"
+                />
               </button>
               <button className="px-4 py-3 bg-white/20 rounded-md items-center border border-white">
-                <img src="/hero-section/icon-list.png"></img>
+                <Image src="/hero-section/icon-list.png" alt="icon"/>
               </button>
             </div>
           </div>
