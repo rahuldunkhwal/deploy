@@ -10,7 +10,7 @@ const HeroSection = () => {
         <div className="max-w-screen-xl mx-auto w-full">
           <div className="text-center space-y-20 font-sans">
             <TextReveal as="h1" variant="heroTitle">
-              AI Driven Real Estate Investments Opportunity
+              AI Driven Real Estate Investments Opportunity rahul
             </TextReveal>
             <div className="transform hover:scale-105 transition-transform duration-300">
               <ButtonAnimation variant="heroSectionButton">Get Started</ButtonAnimation>
