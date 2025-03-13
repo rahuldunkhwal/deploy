@@ -2,7 +2,7 @@
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { useRef } from "react";
-import Image from "next/image";
+// import Image from "next/image";
 
 gsap.registerPlugin(useGSAP);
 
