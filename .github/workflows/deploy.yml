@@ -45,3 +45,4 @@ jobs:
             npm install sharp
             npm run build
             pm2 restart deploy
+            
