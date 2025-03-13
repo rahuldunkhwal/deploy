@@ -44,17 +44,17 @@ const Navbar = () => {
             <div>
               <button className="px-4 py-3 gap-2 text-white text-sm bg-white/10 rounded-md flex items-center">
                 EN
-                <Image src="/hero-section/icon-arrow.png" alt="icon" width={20} height={20} />
+                {/* <Image src="/hero-section/icon-arrow.png" alt="icon" width={20} height={20} /> */}
               </button>
             </div>
-            <div className="flex gap-x-2">
+            {/* <div className="flex gap-x-2">
               <button className="px-4 py-3 bg-white rounded-md">
                 <Image src="/hero-section/icon-map.png" alt="map" width={20} height={20} />
               </button>
               <button className="px-4 py-3 bg-white/20 rounded-md items-center border border-white">
                 <Image src="/hero-section/icon-list.png" alt="icon" width={20} height={20} />
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
